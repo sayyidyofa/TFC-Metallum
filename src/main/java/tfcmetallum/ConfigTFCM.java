@@ -248,7 +248,7 @@ public class ConfigTFCM {
     	@Config.RequiresMcRestart
     	@Config.Comment({"Melting temp for tungsten"})
         @Config.LangKey("config." + MODID + ".melt_temp.tungsten")
-        public float tungsten = 3400;
+        public float tungsten = 1300;
 
     	@RangeInt(min = 0)
     	@Config.RequiresMcRestart
